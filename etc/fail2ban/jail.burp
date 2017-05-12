@@ -1,3 +1,5 @@
+# Include this into /etc/fail2ban/jail.local
+
 [burp-auth]
 enabled = true
 port =  4971,4972

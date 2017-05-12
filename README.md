@@ -24,4 +24,5 @@ Filter that catches "unable to authorise on server" and "check cert failed on se
 
 ### etc/fail2ban/jail.burp
 Enables `burp-auth` filter for `/var/log/burp/burp.log`, blocks ports 4971 and 4972 when triggered.
+Include contents of this file to your `/etc/fail2ban/jail.local`.
 
