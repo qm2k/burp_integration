@@ -1,0 +1,12 @@
+/var/log/burp/burp.log {
+    rotate 12
+    monthly
+    compress
+    delaycompress
+    missingok
+    notifempty
+    postrotate
+        invoke-rc.d rsyslog rotate > /dev/null
+    endscript
+}
+

@@ -1,0 +1,8 @@
+[burp-auth]
+enabled = true
+port =  4971,4972
+logpath = /var/log/burp/burp.log
+# national path names in log will confuse fail2ban
+# unless you specify correct log enconding here
+#logencoding = cp1251
+
